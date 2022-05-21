@@ -8,6 +8,7 @@ for i in range(0,5):
 # Function to put board as a stack to become a grid
 def display_board(board):
     for i in board:
-        print(i)
+        # The .join makes the grid remove the list feuture to look more streamline for a game
+        print(" ".join(i))
 
 display_board(board)
