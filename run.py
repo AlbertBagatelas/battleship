@@ -5,4 +5,9 @@ board = []
 for i in range(0,5):
     board.append(["0"] *5)
 
-print(board)
+# Function to put board as a stack to become a grid
+def display_board(board):
+    for i in board:
+        print(i)
+
+display_board(board)
