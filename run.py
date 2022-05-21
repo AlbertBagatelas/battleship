@@ -1,3 +1,8 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+# The variable for the board
+board = []
+
+# To create 5 lists to act as rows
+for i in range(0,5):
+    board.append(["0"] *5)
+
+print(board)
